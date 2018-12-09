@@ -13,5 +13,6 @@
 
 ## The Dataset
 
-
+ImageNetは22000クラスに分類された15millionもの高解像度の画像データセットである。コンペ(ImageNet Large-Scale Visual Recognition Challenge)ではこれらのうち1.2millionのトレーニングデータ,150000のテストデータ, 50000の検証データを使用している。ImageNetではerror rateとしてtop-1とtop-5を用いる。top-5ではprobabilityがtop-5から外れているときのerror rateである。   
+ImageNetでは様々な解像度の画像が存在する。従って彼らはダウンサンプルを行い、`256x256`に揃えた。長方形の画像においては、短辺を256にまず合わせ、その後、中心を切り取る手法を用いた。preprocessingは特別なことは行っておらず、meanを引いたのみである。
 
