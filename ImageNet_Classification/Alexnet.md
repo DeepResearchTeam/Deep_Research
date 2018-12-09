@@ -24,4 +24,7 @@ ImageNetでは様々な解像度の画像が存在する。従って彼らはダ
 
 ### ReLU Nonlinearity
 
-活性化関数*f*としてこれまで一般的に、<img src='https://latex.codecogs.com/gif.latex?f(x)=&space;tanh(x)'/>
+活性化関数*f*としてこれまで一般的に、<img src='https://latex.codecogs.com/gif.latex?f(x)=&space;tanh(x)'/>や<img src='https://latex.codecogs.com/gif.latex?f(x)=&space;(1&plus;e^{-x})'/>などのsaturationする関数を使用してきたが, gradient descentにおいてはtraining timeはこのようなsaturationのある関数よりもない関数(ReLU)の方が収束が数倍早い。実際、CIFAR-10でテストしたところ、training error 25%に達する時間は6倍速いことが分かった。
+
+### Training on Multiple GPUs
+
