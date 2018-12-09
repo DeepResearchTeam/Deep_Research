@@ -1,7 +1,7 @@
 # Deep Learning Papers
 To summarize the information of machine learning
 
-## ImageNet Classification
+## Image Classification
 
 * [Alexnet](./ImageNet_Classification/Alexnet.md)
 
