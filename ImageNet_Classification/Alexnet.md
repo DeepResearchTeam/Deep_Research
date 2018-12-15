@@ -14,7 +14,7 @@
 ## The Dataset
 
 ImageNetは22000クラスに分類された15millionもの高解像度の画像データセットである。コンペ(ImageNet Large-Scale Visual Recognition Challenge)ではこれらのうち1.2millionのトレーニングデータ,150000のテストデータ, 50000の検証データを使用している。ImageNetではerror rateとしてtop-1とtop-5を用いる。top-5ではprobabilityがtop-5から外れているときのerror rateである。   
-ImageNetでは様々な解像度の画像が存在する。従って彼らはダウンサンプルを行い、`256x256`に揃えた。長方形の画像においては、短辺を256にまず合わせ、その後、中心を切り取る手法を用いた。preprocessingは特別なことは行っておらず、meanを引いたのみである。
+ImageNetでは様々な解像度の画像が存在する。従って彼らはダウンサンプルを行い、`256x256`に揃えた。長方形の画像においては、短辺を256にまず合わせ、その後、中心を切り取る手法を用いた。preprocessingは特別なことは行っておらず、meanを引いたのみである。ピクセル・チャンネルごとに平均を出し入力から差し引く。つまり、256×256×3個の平均値を出し、各入力画像から差し引く
 
 ## The Architecture
 
@@ -32,4 +32,4 @@ memoryが3GBのGTX580を使用しているため、ネットワークのサイ�
 
 ### Local Response Normalization
 
-
+輝度の平均を0にしていないので輝度の正規化としてLRNを行う。「同一ピクセルにおいて複数の特徴マップ間で正規化する」ということをしている。[ここ](http://tatsudoya.blog.fc2.com/blog-entry-181.html)
