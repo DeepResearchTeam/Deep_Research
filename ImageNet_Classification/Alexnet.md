@@ -40,4 +40,15 @@ Max Poolingを取る時に各unitを今までは「重複しない」ように�
 
 ### Overall Architecture
 
-5層のconvと3層のfully-connected。1000クラス分類。
+5層のconvと3層のfully-connected。1000クラス分類。Our network maximizes the multinomial logistic regression
+objective, which is equivalent to maximizing the average across training cases of the log-probability
+of the correct label under the prediction distribution. ロジスティック回帰のような、それぞれのバッチの確率出力を掛け合わせた値の-logを取ってそれを最小にしているということなのだろうか。
+
+* input: 224x224x3
+* conv: 11x11x3, stride 4 pixel
+* conv: 5x5x48
+* conv: 3x3x256
+* conv: 3x3x192
+* fc: 4096
+
+
