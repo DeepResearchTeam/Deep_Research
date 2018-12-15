@@ -51,4 +51,7 @@ of the correct label under the prediction distribution. ロジスティック回
 * conv: 3x3x192
 * fc: 4096
 
+## Reducing Overfitting
+
+
 
