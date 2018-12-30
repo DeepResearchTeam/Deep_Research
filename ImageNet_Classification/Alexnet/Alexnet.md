@@ -53,5 +53,12 @@ of the correct label under the prediction distribution. ロジスティック回
 
 ## Reducing Overfitting
 
+### Data Augmentation
+
+最も一般的で簡単な方法として人工的にimage dataをlabel-preserving transformationを用いて、Data Augmentationを行う方法がある。ここでlabel-preservingとは、6を180度回転させるようなAugmentationは含まれないことを意味する。彼らは2通りのAugmentationを行った。CPUでこのAugmentationの計算をしている間にGPUで別のbatchの学習を行っており、computationally freeであると言っている。   
+一つ目は、256x256の画像から、224x224のpatchサイズの画像を切り出し(反転も行い)、それらを用いて学習させた。This increases the size of our
+training set by a factor of 2048, though the resulting training examples are, of course, highly interdependent.(切り出して学習させたから増えた). predictionの際にも、5つの224x224のpatchを切り出し、反転もさせ、(10patch)学習させた。その10個のsoftmaxから出てきた平均を結果としている。
+
+
 
 
