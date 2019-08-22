@@ -3,7 +3,7 @@ To summarize the information of machine learning
 
 ## Image Classification
 
-* [Alexnet](./ImageNet_Classification/Alexnet/Alexnet.md)
+* [Alexnet](./issues/1)
 
 
 ## REINFORCEMENT
