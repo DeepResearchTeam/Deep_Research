@@ -1,12 +1,25 @@
 # Deep Learning Papers
 To summarize the information of machine learning
 
-## Image Classification
+## Issuesのテンプレ
 
-* [Alexnet](https://github.com/Shaw0202/Deep_Research/issues/1)
+[テンプレ](./issues/4)に記載。
 
+## 有名論文
 
-## REINFORCEMENT
+#### Image Segmentation
 
+* [Fully Convolutional Networks for Semantic Segmentation](./issues/3)
+* [U-Net: Convolutional Networks for Biomedical Image Segmentation](./issues/2)
+
+## 衛星画像解析
+
+#### Image Segmentation
+
+* [Contextually guided very-high-resolution imagery classification with semantic segments](./issues/5)
+
+#### Annotation
+
+* [Object Detection in Optical Remote Sensing Images Based on Weakly Supervised Learning and High-Level Feature Learning](./issues/6)
 
 
