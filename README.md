@@ -1,5 +1,5 @@
 # Deep Learning Papers
-To summarize the information of machine learning
+To summarize the information of machine learning. This repository mainly focuses on the image processing and satellite image classification.
 
 ## Issuesのテンプレ
 
