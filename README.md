@@ -7,16 +7,28 @@ To summarize the information of machine learning. This repository mainly focuses
 
 ## 有名論文
 
-#### Image Segmentation
+#### Image Classification
 
 * [Fully Convolutional Networks for Semantic Segmentation](https://github.com/Shaw0202/Deep_Research/issues/3)
 * [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://github.com/Shaw0202/Deep_Research/issues/2)
+* [EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://github.com/Shaw0202/Deep_Research/issues/13)
 
 ## 衛星画像解析
 
 #### Image Segmentation
 
 * [Contextually guided very-high-resolution imagery classification with semantic segments](https://github.com/Shaw0202/Deep_Research/issues/5)
+* [Semantic Segmentation-Based Building Footprint　Extraction Using Very High-Resolution Satellite Images and Multi-Source GIS Data](https://github.com/Shaw0202/Deep_Research/issues/12)
+* [Object-Based Convolutional Neural Network for High-Resolution Imagery Classification](https://github.com/Shaw0202/Deep_Research/issues/11)
+
+#### Detection
+
+* [Vehicle Detection in Aerial Images Based on Region Convolutional Neural Networks and Hard Negative Example Mining](https://github.com/Shaw0202/Deep_Research/issues/10)
+* [Vehicle Detection in Satellite Images by Hybrid Deep Convolutional Neural Networks](https://github.com/Shaw0202/Deep_Research/issues/9)
+
+#### Visualization
+
+* [Computing Ocean Surface Currents From GOCI Ocean Color Satellite Imagery](https://github.com/Shaw0202/Deep_Research/issues/7)
 
 #### Annotation
 
