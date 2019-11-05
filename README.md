@@ -29,6 +29,7 @@ To summarize the information of machine learning. This repository mainly focuses
 #### Visualization
 
 * [Computing Ocean Surface Currents From GOCI Ocean Color Satellite Imagery](https://github.com/Shaw0202/Deep_Research/issues/7)
+* [Building Change Detection Using High Resolution　Remotely Sensed Data and GIS](https://github.com/DeepResearchTeam/Deep_Research/issues/15)
 
 #### Annotation
 
