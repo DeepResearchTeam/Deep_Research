@@ -20,6 +20,7 @@ To summarize the information of machine learning. This repository mainly focuses
 * [Contextually guided very-high-resolution imagery classification with semantic segments](https://github.com/Shaw0202/Deep_Research/issues/5)
 * [Semantic Segmentation-Based Building Footprint　Extraction Using Very High-Resolution Satellite Images and Multi-Source GIS Data](https://github.com/Shaw0202/Deep_Research/issues/12)
 * [Object-Based Convolutional Neural Network for High-Resolution Imagery Classification](https://github.com/Shaw0202/Deep_Research/issues/11)
+* [Deep Feature Extraction and Classification of Hyperspectral Images Based on Convolutional Neural Networks](https://github.com/DeepResearchTeam/Deep_Research/issues/17)
 
 #### Detection
 
@@ -35,4 +36,6 @@ To summarize the information of machine learning. This repository mainly focuses
 
 * [Object Detection in Optical Remote Sensing Images Based on Weakly Supervised Learning and High-Level Feature Learning](https://github.com/Shaw0202/Deep_Research/issues/6)
 
+## その他
 
+- [An unsupervised approach to geographical knowledge　discovery using street level and street network images](https://github.com/DeepResearchTeam/Deep_Research/issues/16)
